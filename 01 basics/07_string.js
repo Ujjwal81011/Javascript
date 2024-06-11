@@ -21,7 +21,7 @@ console.log(anotherstring); // sclice accept both negative an positive value
 
 const newstringone="    Hitesh    "
 console.log(newstringone);
-console.log(newstringone.trim()); // it helps us to remove the spacaes
+console.log(newstringone.trim()); // it helps us to remove the spaces
 
 const url="https://hitesh.com/hitesh%20choudhary"
 console.log(url.replace('%20','-')); // this method is use for replace the slice of the url
