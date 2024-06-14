@@ -12,6 +12,10 @@ console.log(hundreds.toLocaleString('en-IN')); // convert the value according to
 
 // Now we talk about the Maths
 console.log(Math);
+console.log(Math.abs(-4));
+console.log(Math.round(4.6));
+console.log(Math.min(4,5,8,2,1));
+console.log(Math.max(4,5,8,2,1));
 console.log(Math.random());
 console.log((Math.random()*10)+1);
 console.log(Math.floor(Math.random()*10)+1);
