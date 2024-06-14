@@ -13,7 +13,7 @@ console.log(mycreatedate1.toLocaleString());
 // let mytimeStamp=Date.now()
 // console.log(mytimeStamp);
 // console.log(mycreatedate.getTime());
-// console.log(Math.round(Date.now()/1000));
+// console.log(Math.round(Date.now()/1000));//for converting in the second
 
 let newDate=new Date()
 console.log(newDate);
