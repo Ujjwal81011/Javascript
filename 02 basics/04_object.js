@@ -1,3 +1,7 @@
+const tinderuser=new Object() //singleton Object
+const tinderuser2={} //non-singleton Object
+console.log(tinderuser);
+console.log(tinderuser2);
 const Jsuser={
     name: "ujjwal",
     fullname:{
