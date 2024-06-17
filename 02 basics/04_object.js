@@ -27,3 +27,12 @@ const obj4={...obj1,...obj2} // using spred method we can concat two or more obj
 // console.log(Object.keys(Jsuser));
 // console.log(Object.values(Jsuser));
 // console.log(Object.entries(Jsuser)); // it define each key and values in an array.
+
+const course= {
+coursename: "Btech",
+coursefees: 999,
+course_instructor: "Hitesh sir",
+}
+// console.log(course.course_instructor);
+const {course_instructor: instructor}=course
+console.log(instructor);
