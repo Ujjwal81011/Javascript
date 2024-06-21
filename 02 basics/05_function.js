@@ -19,9 +19,9 @@ function sum(num1,num2){
     return num1+num2
     console.log("Hitesh"); // function will not return any console value ahter return 
 }
-const result=sum(5,8)
-console.log("Result: ",result);
-
+// const result=sum(5,8)
+// console.log("Result: ",result);
+console.log(sum(5,4));
 
 function usermessage(username = "Sam"){
     if(username === undefined) // or if(!username)
