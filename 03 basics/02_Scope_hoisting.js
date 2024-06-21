@@ -28,7 +28,7 @@ function addone(num) {
 }
 
 
-console.log(addtwo(5)); // it is due to hoisying
+console.log(addtwo(5)); // it is due to hoisting
 const addtwo=function(num) { // it is concept of hoisting and sometimes known as expression
     return num+2
 }
