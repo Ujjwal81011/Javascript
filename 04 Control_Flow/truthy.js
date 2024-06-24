@@ -10,12 +10,12 @@ else{
 // falsy values => ( false, 0, BigInt 0n, "", null, undefined, NaN )
 // truthy values => ( "0", 1, "false", " ", [], (), function(){} )
 
-if (useremial.length === 0) {
+if (useremial.length === 0) { //for checking that array is empty or not
     console.log("Array is empty");
 }
 
 const emptyobject = {}
-if (Object.keys(emptyobject).length === 0) { // convert the object into array
+if (Object.keys(emptyobject).length === 0) { // convert the object into array and then check object is empty or not
     console.log("object is empty");
 }
 
