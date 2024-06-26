@@ -5,7 +5,7 @@ const myobj = {  // object mostly using forin loop
     cpp : "C++"
 }
 
-for (const key in myobj) {  // here we using forin loop after removing the portion of if
+for (const key in myobj) {  // here we using forin loop after removing the if condition 
     // console.log(`${key} shortcut for ${myobj[key]}`);
 }
 
