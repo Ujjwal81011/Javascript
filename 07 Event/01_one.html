@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: black; color: aliceblue;">
+    <h2>Amazing images</h2>
+    <ul id="images">
+        <li><img id="one" src="download.jpeg" alt="first"></li>
+        <li><img id="two" src="set.jpeg" alt="second"></li>
+        <li><img id="three" src="download2.jpeg" alt="third"></li>
+        <li><a id="link" href="https://www.google.com/"  style="color: aliceblue;">Google.com</a></li>
+    </ul>
+</body>
+<script>
+    document.getElementById('one').onclick = function(){
+        alert('very pretty house')
+    }
+
+    // type, timestamp, defaultPrevented
+    // target, toElement, srcElement, currentTarget
+    // clientX, clientY, screenX, screenY
+    // altkey, ctrlkey, shiftkey, keycode
+
+    // document.getElementById('images').addEventListener('click',function(e){
+    //     console.log('click inside the ul');
+    // },false)
+    // document.getElementById('two').addEventListener('click',function(e){
+    //     console.log('click on the second image');
+    //     e.stopPropagation()
+    // },false)
+
+    // document.getElementById('link').addEventListener('click',(e) => {
+    //     e.preventDefault()
+    //     e.stopPropagation()
+    //     console.log('google clicked');
+    // },false)
+
+    document.querySelector('#images').addEventListener('click', (e) => {
+        // console.log(e.target.parentNode);
+        let removeit = e.target.parentNode
+        removeit.remove()
+    })
+</script>
+</html>
