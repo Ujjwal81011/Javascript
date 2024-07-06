@@ -22,11 +22,12 @@
     const saydate = function(){
         console.log("Ujjwal Mishra", Date.now())
     }
+    let mishra
     document.querySelector('#start').addEventListener('click', () => {
-        let mishra = setInterval(saydate, 1000 )
-        document.querySelector('#stop').addEventListener('click', () => {
+        mishra = setInterval(saydate, 1000 )
+    })
+    document.querySelector('#stop').addEventListener('click', () => {
             clearInterval(mishra)
         })
-    })
 </script>
 </html>
