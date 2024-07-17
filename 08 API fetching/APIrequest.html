@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API fetching</title>
+</head>
+<style>
+    body{background-color: black;
+        color: white;}
+</style>
+<body>
+    
+</body>
+<script>
+    const requestUrl = 'https://api.github.com/users/Ujjwal81011'
+   const XHR =  new XMLHttpRequest()
+   XHR.open('GET', requestUrl) 
+XHR.onreadystatechange = function(){
+    console.log(XHR.readyState);
+    if (XHR.readyState === 4) {
+        console.log(this.responseText);
+    }
+}
+   XHR.send();
+</script>
+</html>
