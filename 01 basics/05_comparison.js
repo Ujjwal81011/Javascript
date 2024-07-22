@@ -7,6 +7,4 @@ console.log(undefined==0);
 console.log(undefined>0);
 console.log(undefined<0);
 
-//avoid the above type of comparision
-
 console.log("2"===2);
