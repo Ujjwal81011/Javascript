@@ -8,7 +8,7 @@ const gameName=new String('Hitesh-hc-com')
 console.log(gameName[0]);
 console.log(gameName.__proto__);
 
-console.log(gameName.length); //for gettin the length of string
+console.log(gameName.length); //for getting the length of string
 console.log(gameName.toUpperCase()); // for converting the string in the uppercase
 console.log(gameName.charAt(2)); // for getting the character on the given index
 console.log(gameName.indexOf("t")); // for getting the index of the given character
