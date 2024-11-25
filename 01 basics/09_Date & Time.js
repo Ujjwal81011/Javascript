@@ -9,7 +9,6 @@ console.log(mycreatedate.toDateString());
 let mycreatedate1= new Date("2023-01-25") // in javascript it contain the month from 1 if we write "yyyy-mm-dd"
 console.log(mycreatedate1.toLocaleString());
 
-
 // let mytimeStamp=Date.now()
 // console.log(mytimeStamp);
 // console.log(mycreatedate.getTime());
