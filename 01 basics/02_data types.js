@@ -18,7 +18,6 @@ let state;
 // undefined => 
 // symbol => unique
 
-
 // Reference (non primitive)
 // Array
 // object
