@@ -29,5 +29,4 @@ console.log(url.includes('hitesh')); //this method is use for the checking that 
 
 console.log(gameName.split('-')); // this method is use for converting a string into array based on spaces or dashes or many other symbol or characters
 
-
 //  for getting more knowledge about string method go to mdn references an search string methods
