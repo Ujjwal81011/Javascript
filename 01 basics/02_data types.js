@@ -5,7 +5,7 @@ console.log(3
 console.log("Hitesh");
 
 let name="Hitesh" // string
-let age=18 //number
+let age=19 //number
 let isLoggedIn=false // boolean
 let state;
 
